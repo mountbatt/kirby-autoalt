@@ -9,7 +9,7 @@ Kirby plugin that retrieves the descriptive ALT text of an image during upload t
 - Get an OpenAI API-Key [here](https://platform.openai.com/api-keys)
 - Copy and edit the options into your config.php (see below)
 - Create a file blueprint with a 'alt' textfield
-- Upload an image and check the retrieved ALT text in the panel-view of your new image
+- Upload or replace an image and check the retrieved ALT text in the panel-view of your new image
 
 #### File Blueprint example
 You need to create a file blueprint to add an `alt` textfield. Choose a fieldname you want. Check the example below:
@@ -40,3 +40,8 @@ fields:
 
 ### Note for development environments
 Due to the fact that the URL of the uploaded image is sent to OpenAI, your Kirby installation must be accessible from the Internet. It will therefore not work to retrieve the ALT Text on/from localhost. 
+
+## Versions
+
+- 1.0: Init
+- 1.1: Added "replace"-Hook to run also after replacing an image
