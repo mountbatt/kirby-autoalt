@@ -3,6 +3,8 @@
 
 Kirby plugin that retrieves the descriptive ALT text of an image during upload to the CMS via OpenAI and updates it in all installed languages.
 
+https://github.com/user-attachments/assets/27d99593-916b-4a25-ab00-32191af56f8d
+
 ## Installation
 
 - Copy the plugin to `/plugins/kirby-autoalt`
