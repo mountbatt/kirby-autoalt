@@ -33,7 +33,7 @@ fields:
         // Set to false to disable the plugin
         'mountbatt/alt.enabled' => true, 
         'mountbatt/alt.openai.apiKey' => 'YOUR_API_KEY',
-        'mountbatt/alt.aiModel' => 'gpt-4o',
+        'mountbatt/alt.aiModel' => 'gpt-4o-mini',
         'mountbatt/alt.targetFieldName' => 'alt' 
     ]
 ````
