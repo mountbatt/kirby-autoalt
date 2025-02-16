@@ -1,0 +1,17 @@
+{
+    "name": "mountbatt/kirby-autoalt",
+    "description": "Kirby plugin that retrieves the descriptive ALT text of an image during upload to the CMS via OpenAI and updates it in all installed languages.",
+    "license": "MIT",
+    "type": "kirby-plugin",
+    "version": "1.0",
+    "homepage": "https://github.com/mountbatt/kirby-autoalt#readme",
+    "authors": [
+        {
+            "name": "Tobias Battenberg",
+            "email": "mountbatt@gmail.com"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    }
+}
